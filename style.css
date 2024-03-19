@@ -28,6 +28,8 @@ html,body{
     line-height: 275px;
     background: #240f52;
     border-radius: 50%;
+    cursor: default;
+    /* opacity: 0; */
 }
 .inner span {
     font-size: 60px;
