@@ -12,14 +12,14 @@ html,body{
     width: 300px;
     background: linear-gradient();
     border-radius: 50%;
-    animation: rotate 2s ease infinite;
+    /* animation: rotate 2s ease infinite; */
 }
 
-@keyframes rotate {
+/* @keyframes rotate {
     to{
         transform: rotate(360deg);
     }
-}
+} */
 .inner {
     position: absolute;
     width: 275px;
@@ -36,8 +36,20 @@ html,body{
     color: transparent;
     -webkit-background-clip: text;
     background-size: 300%;
-    
-
-
-
+}
+.outer .active-loader {
+    animation: rotate 2s ease infinite;
+}
+@keyframes rotate {
+    to{
+        transform: rotate(360deg);
+    }
+}
+.outer .active-loader-2 {
+    animation: rotate2 3s ease;
+}
+@keyframes rotate {
+    to{
+        transform: rotate(360deg);
+    }
 }
